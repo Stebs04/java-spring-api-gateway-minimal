@@ -1,0 +1,8 @@
+### Test invio comando
+POST http://localhost:8080/comandi/
+Content-Type: application/json
+
+{
+  "codice": "ALPHA-1",
+  "messaggio": "Attivare propulsori"
+}
