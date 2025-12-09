@@ -6,3 +6,12 @@ Content-Type: application/json
   "codice": "ALPHA-1",
   "messaggio": "Attivare propulsori"
 }
+
+### Test Crittografia (SHA-256)
+POST http://localhost:8080/crypto/hash
+Content-Type: application/json
+
+{
+  "text": "Ciao Mondo",
+  "algorithm": "SHA-256"
+}
